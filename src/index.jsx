@@ -14,7 +14,7 @@ const cameraSettings = {
 
 root.render(
   <Canvas
-    dpr={[1, 2]}
+    // dpr={[1, 2]} // clamp pixel ratio between 1 and 2 -- default
     gl={{
       antialias: true,
       toneMapping: THREE.ACESFilmicToneMapping,
